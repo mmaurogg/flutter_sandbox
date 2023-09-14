@@ -1,0 +1,30 @@
+flavors:
+  app1:
+    app:
+      name: "App 1"
+      #icon: "assets/icon-app1.png"
+
+    android:
+      applicationId: "com.example.app1" 
+    ios:
+      bundleId: "com.example.app1"
+  
+  app2:
+    app:
+      name: "App 2"
+      #icon: "assets/icon-app2.png"
+
+    android:
+      applicationId: "com.example.app2"  
+    ios:
+      bundleId: "com.example.app2" 
+
+  app3:
+    app:
+      name: "App 3"
+      icon: "assets/icon-app3.png"
+
+    android:
+      applicationId: "com.example.app3"  
+    ios:
+      bundleId: "com.example.app3" 

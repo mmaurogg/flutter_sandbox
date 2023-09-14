@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flavoring_flavorizr",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flavoring_flavorizr (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flavoring_flavorizr (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "app1",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_app1.dart",
+            "args": ["--flavor", "app1", "--target", "lib/main_app1.dart" ]
+        },
+        {
+            "name": "app2",
+            "request": "launch",
+            "type": "dart",
+            "program": "/lib/main_app2.dart",
+            "args": ["--flavor", "app2", "--target", "/lib/main_app1.dart" ]
+        },
+        {
+            "name": "app3",
+            "request": "launch",
+            "type": "dart",
+            "program": "/lib/main_app3.dart",
+            "args": ["--flavor", "app3", "--target", "/lib/main_app1.dart" ]
+        }
+    ]
+}
