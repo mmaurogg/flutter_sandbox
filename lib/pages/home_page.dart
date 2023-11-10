@@ -1,5 +1,7 @@
 import 'package:flavoring_flavorizr/data/data.dart';
 import 'package:flavoring_flavorizr/models/preference.dart';
+import 'package:flavoring_flavorizr/pages/facebook_sdk.dart';
+import 'package:flavoring_flavorizr/pages/form_page.dart';
 import 'package:flavoring_flavorizr/ui/liquit_cards_pages.dart';
 import 'package:flavoring_flavorizr/ui/path_pages/horizontal_path.dart';
 import 'package:flavoring_flavorizr/ui/path_test.dart';
@@ -50,11 +52,12 @@ class _HomePageState extends State<HomePage> {
         //Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body:
-          //
-          //PathHorizontal()
-          //    CustomPath()
-          LiquitCards()
+      body: FormPage()
+
+      //FacebookSdk()
+      //PathHorizontal()
+      //    CustomPath()
+      //LiquitCards()
       //PathTest()
       /* Center(
         child: Column(

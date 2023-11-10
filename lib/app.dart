@@ -1,9 +1,8 @@
-import 'package:flavoring_flavorizr/ui/home_page.dart';
+import 'package:flavoring_flavorizr/pages/home_page.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'flavors.dart';
-import 'pages/my_home_page.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -17,7 +16,7 @@ class App extends StatelessWidget {
       ),
       home: _flavorBanner(
         child: HomePage(
-          title: 'Home page from App',
+          title: 'Home page from ${F.title}',
         ),
         show: kDebugMode,
       ),
