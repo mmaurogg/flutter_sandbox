@@ -17,7 +17,7 @@ class App extends StatelessWidget {
       ),
       home: _flavorBanner(
         child: HomePage(
-          title: 'Home page from App',
+          title: F.title,
         ),
         show: kDebugMode,
       ),
