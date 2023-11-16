@@ -32,15 +32,15 @@
             "name": "app2",
             "request": "launch",
             "type": "dart",
-            "program": "/lib/main_app2.dart",
-            "args": ["--flavor", "app2", "--target", "/lib/main_app1.dart" ]
+            "program": "lib/main_app2.dart",
+            "args": ["--flavor", "app2", "--target", "lib/main_app2.dart" ]
         },
         {
             "name": "app3",
             "request": "launch",
             "type": "dart",
-            "program": "/lib/main_app3.dart",
-            "args": ["--flavor", "app3", "--target", "/lib/main_app1.dart" ]
+            "program": "lib/main_app3.dart",
+            "args": ["--flavor", "app3", "--target", "lib/main_app3.dart" ]
         }
     ]
 }
