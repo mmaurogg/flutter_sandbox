@@ -2,7 +2,7 @@ flavors:
   app1:
     app:
       name: "App 1"
-      #icon: "assets/icon-app1.png"
+      icon: "assets/icon-app1.png"
 
     android:
       applicationId: "com.example.app1" 
@@ -12,7 +12,7 @@ flavors:
   app2:
     app:
       name: "App 2"
-      #icon: "assets/icon-app2.png"
+      icon: "assets/icon-app2.png"
 
     android:
       applicationId: "com.example.app2"  
