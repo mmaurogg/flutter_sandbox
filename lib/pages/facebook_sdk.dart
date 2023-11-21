@@ -34,6 +34,18 @@ class FacebookSdk extends StatelessWidget {
           ),
           MaterialButton(
             color: Colors.blue,
+            child: Text("Click 2 me!"),
+            onPressed: () {
+              facebookAppEvents.logEvent(
+                name: 'button_clicked',
+                parameters: {
+                  'button_id2': 'the_clickme_button',
+                },
+              );
+            },
+          ),
+          MaterialButton(
+            color: Colors.blue,
             child: Text("Set user data"),
             onPressed: () {
               facebookAppEvents.setUserData(
