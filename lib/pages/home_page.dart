@@ -2,8 +2,11 @@ import 'package:flavoring_flavorizr/data/data.dart';
 import 'package:flavoring_flavorizr/models/preference.dart';
 import 'package:flavoring_flavorizr/pages/facebook_sdk.dart';
 import 'package:flavoring_flavorizr/pages/form_page.dart';
+import 'package:flavoring_flavorizr/pages/search_page.dart';
+import 'package:flavoring_flavorizr/pages/user_recognition_page.dart';
 import 'package:flavoring_flavorizr/ui/liquit_cards_pages.dart';
 import 'package:flavoring_flavorizr/ui/path_pages/horizontal_path.dart';
+import 'package:flavoring_flavorizr/ui/path_pages/vartical_path.dart';
 import 'package:flavoring_flavorizr/ui/path_test.dart';
 import 'package:flavoring_flavorizr/ui/pick_preferences_dialog.dart';
 import 'package:flavoring_flavorizr/ui/custom_path.dart';
@@ -54,9 +57,12 @@ class _HomePageState extends State<HomePage> {
       ),
       body:
           //FormPage()
+          //UserRecognitionPage()
 
-          FacebookSdk()
-      //PathHorizontal()
+          SearchPage()
+
+      //FacebookSdk()
+      //VerticalPath()
       //    CustomPath()
       //LiquitCards()
       //PathTest()
